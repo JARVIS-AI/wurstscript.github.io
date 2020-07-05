@@ -320,7 +320,7 @@ on the respective other copy of the variable.
 This can be observed when a variable is changed after the closure is created:
 ```wurst
 var s = "Hello!"
-let func = () ->
+let f = () ->
 	print(s)
 	s = s + "!"
 
@@ -501,17 +501,25 @@ In order to define an overloading function it has to be named as following:
 Almost any definition in wurst can be annotated with one or more optionally named annotations.
 Annotations are compiletime only metadata which can be used for compiletime function, tests and `callFunctionsWithAnnotation`.
 In most cases annotations are generally disregarded unless you use them yourself.
-List of all wurst reserved annotations:
+As of build#1124 annotations must be defined as a top level, bodiless function using `@annotation`, in order to be valid.
 
 ```wurst
-@configurable constant SOME_VAR = 12
-@config constant SOME_VAR = 24
+@annotation public function my_annotation() // Definition
 
-@compiletime function foo()
+@my_annotation function someOtherFunc() // Usage
+```
 
-@Test function someTest()
+The wurst reserved annotations are defined in the `Annotations` package.
 
-@deprecated("Use .size() instead") function getSize() returns int
+```wurst
+@annotation public function compiletime()
+@annotation public function deprecated()
+@annotation public function deprecated(string _message)
+@annotation public function compiletimenative()
+@annotation public function configurable()
+@annotation public function inline()
+@annotation public function config()
+@annotation public function extern()
 ```
 
 ## Compiletime Execution
@@ -557,7 +565,7 @@ function doInit()
 
 Similar to compiletime functions, Wurst also has compiletime expressions.
 As the name suggests, these are expressions, which are evaluated at compiletime.
-The result of executing the expression is the placed into the mapscript instead of the original expression.
+The result of executing the expression is placed into the mapscript instead of the original expression.
 
 The syntax for compiletime expressions is a simple function call to the `compiletime` function defined in package `MagicFunctions` in the standard library.
 This function takes one argument, which is the expression to evaluate.

@@ -125,18 +125,18 @@ A tag-style FFA map where players switch between hunter and hunted. Each player 
 <div class="col-sm-6 col-xs-12">
 <div class="card" markdown="1">
 
-[![screenshot](/assets/images/showcase/gorgepreview.png){: .img-responsive .center-block}](https://www.hiveworkshop.com/threads/the-gorge-0-9-1.292325/)
+[![screenshot](/assets/images/showcase/gorgepreview.png){: .img-responsive .center-block}](https://www.hiveworkshop.com/threads/battle-planes-0-14-5.292325/)
 
 <div class="card-block" markdown="1">
 
 {: .card-title}
 
-#### The Gorge
+#### Battle Planes
 
 {: .card-text}
 Battleships-style aos that focuses on simplicity. Uses automatically firing weapons and interesting systems.
 
-[_&nbsp;_{: .fa .fa-external-link-square} Hive Thread](https://www.hiveworkshop.com/threads/the-gorge-0-9-1.292325/) [_&nbsp;_{: .fa .fa-external-link-square} Git Repo](https://bitbucket.org/Cokemonkey11/the-gorge/src)
+[_&nbsp;_{: .fa .fa-external-link-square} Hive Thread](https://www.hiveworkshop.com/threads/battle-planes-0-14-5.292325/) [_&nbsp;_{: .fa .fa-external-link-square} Git Repo](https://bitbucket.org/Cokemonkey11/the-gorge/src)
 
 </div>
 
@@ -194,6 +194,138 @@ A charmful skirmish between two teams in a snowy landscape.
 </div>
 <!-- End Card -->
 </div>
+
+</div>
+<!-- End Row -->
+
+<div class="row">
+
+<!-- Begin Card -->
+<div class="col-sm-6 col-xs-12">
+<div class="card" markdown="1">
+
+[![screenshot](/assets/images/showcase/ltwevopreview.jpg){: .img-responsive .center-block}](https://www.epicwar.com/maps/291953/)
+
+<div class="card-block" markdown="1">
+
+{: .card-title}
+
+#### Line Tower Wars Evolution
+
+{: .card-text}
+Build a maze of towers to protect your lives from invading creeps. Send creeps to steal lives from your oppoents.
+
+[_&nbsp;_{: .fa .fa-external-link-square} Epicwar](https://www.epicwar.com/maps/291953/)
+
+</div>
+
+</div>
+</div>
+<!-- End Card -->
+
+<!-- Begin Card -->
+<div class="col-sm-6 col-xs-12">
+<div class="card" markdown="1">
+
+[![screenshot](/assets/images/showcase/etcpreview.png){: .img-responsive .center-block}](https://www.hiveworkshop.com/threads/escape-the-crab-0-23a.316415/)
+
+<div class="card-block" markdown="1">
+
+{: .card-title}
+
+#### Escape the Crab
+
+{: .card-text}
+Based in ancient japan, you and your pals try to escape from a Giant Enemy Crab. Remember to attack its weak point for massive damage.
+
+[_&nbsp;_{: .fa .fa-external-link-square} Hive Thread](https://www.hiveworkshop.com/threads/escape-the-crab-0-23a.316415/) [_&nbsp;_{: .fa .fa-external-link-square} Git Repo](https://github.com/Frotty/EscapeTheCrab)
+
+</div>
+
+</div>
+</div>
+<!-- End Card -->
+
+</div>
+<!-- End Row -->
+
+<div class="row">
+
+<!-- Begin Card -->
+<div class="col-sm-6 col-xs-12">
+<div class="card" markdown="1">
+
+[![screenshot](/assets/images/showcase/gargonachpreview.png){: .img-responsive .center-block}](https://www.hiveworkshop.com/threads/gargonach-0-1-0.216521/)
+
+<div class="card-block" markdown="1">
+
+{: .card-title}
+
+#### Gargonach
+
+{: .card-text}
+This map is inspired from a boss in the original Half- Life story called "Gonarch".
+
+[_&nbsp;_{: .fa .fa-external-link-square} Hive Thread](https://www.hiveworkshop.com/threads/gargonach-0-1-0.216521/)
+[_&nbsp;_{: .fa .fa-external-link-square} Git Repo](https://bitbucket.org/Cokemonkey11/gargonach/)
+
+</div>
+
+</div>
+</div>
+<!-- End Card -->
+
+<!-- Begin Card -->
+<div class="col-sm-6 col-xs-12">
+<div class="card" markdown="1">
+
+[![screenshot](/assets/images/showcase/hunterpreview.png){: .img-responsive .center-block}](https://www.hiveworkshop.com/threads/hunters-hall-1-6-0.164630/)
+
+<div class="card-block" markdown="1">
+
+{: .card-title}
+
+#### Hunter's hall
+
+{: .card-text}
+Hunter's Hall is a team-oriented PvP game which consists of short, objective-based rounds.
+
+[_&nbsp;_{: .fa .fa-external-link-square} Hive Thread](https://www.hiveworkshop.com/threads/hunters-hall-1-6-0.164630/) [_&nbsp;_{: .fa .fa-external-link-square} Git Repo](https://bitbucket.org/Cokemonkey11/hunters-hall/)
+
+</div>
+
+</div>
+</div>
+<!-- End Card -->
+
+</div>
+<!-- End Row -->
+
+<div class="row">
+
+<!-- Begin Card -->
+<div class="col-sm-6 col-xs-12">
+<div class="card" markdown="1">
+
+[![screenshot](/assets/images/showcase/sheeppreview.jpg){: .img-responsive .center-block}](https://www.epicwar.com/maps/287076/)
+
+<div class="card-block" markdown="1">
+
+{: .card-title}
+
+#### Sheep Tag Relapse
+
+{: .card-text}
+A new direction for Sheep Tag Revolution powered by Wurst.
+
+[_&nbsp;_{: .fa .fa-external-link-square} Epicwar](https://www.epicwar.com/maps/287076/)
+[_&nbsp;_{: .fa .fa-external-link-square} Git Repo](https://github.com/W3Madhatters/Sheep-Tag-Relapse)
+
+</div>
+
+</div>
+</div>
+<!-- End Card -->
 
 </div>
 <!-- End Row -->

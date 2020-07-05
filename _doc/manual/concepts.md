@@ -14,6 +14,7 @@ The Wurst expressions in semi-formal syntax:
 Expr ::=
       Expr + Expr       // addition
     | Expr - Expr       // subtraction
+	| Expr * Expr       // multiplication
     | Expr / Expr       // real division
     | Expr div Expr     // integer division
     | Expr % Expr       // real modulo
@@ -53,7 +54,7 @@ contain letters, numbers and underscores.
 **Note**: For calls to generic functions refer to the Generics chapter.
 
 
-### Cascade operator (dot-dot-operator)
+### Cascade operator
 
 The cascade operator `..` is similar to the normal `.` operator and can be used for calling methods, but instead of returning the result
 of the called method, the cascade operator returns the receiver. This makes it possible to easily chain function calls on the same variable.
@@ -137,6 +138,23 @@ switch i
 ```
 As you see in the example, a switch statement is basically a nicer syntax for
 nesting ifs and else ifs, with the special default case.
+
+**Abbreviations**: Several cases can be combined using a pipe symbol (`|`) and enum members can be referenced by just using the case name instead of the full name.
+
+```wurst
+enum Animal
+    Sheep
+    Dog
+    Eagle
+
+function canFly(Animal animal) returns boolean
+    switch animal
+        case Dog | Sheep
+            return false
+        case Eagle
+            return true
+```
+
 
 ### Loops
 ```wurst

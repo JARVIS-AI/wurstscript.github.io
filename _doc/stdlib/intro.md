@@ -30,6 +30,8 @@ All packages in the standard library follow the [coding conventions](https://wur
 
 &nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;*{: .fa .fa-file} [Assets](stdlib/assets)
 
+&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;*{: .fa .fa-file} [Error Handling](stdlib/errorhandling)
+
 &nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;*{: .fa .fa-file} [Wurst Unit](stdlib/wurstunit)
 
 ### *&nbsp;*{: .fa .fa-folder-open} Closures
@@ -74,7 +76,9 @@ All packages in the standard library follow the [coding conventions](https://wur
 
 &nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;*{: .fa .fa-file} [Upgrade Object Editing](stdlib/upg_objed)
 
+### *&nbsp;*{: .fa .fa-folder-open} Util
 
+&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;*{: .fa .fa-file} [Dialog Box](stdlib/dialogbox)
 
 
 

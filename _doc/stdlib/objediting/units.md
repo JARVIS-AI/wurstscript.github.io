@@ -35,7 +35,7 @@ let DUMMY_UNIT_ID = compiletime(UNIT_ID_GEN.next())
 		..setRace(Race.Commoner)
 		..setFoodCost(0)
 		..setArmorType(ArmorType.Divine)
-		..setIconGameInterface("ReplaceableTextures\\CommandButtons\\BTNtemp.blp")
+		..setIconGameInterface(Icons.bTNtemp)
 		..setSpeedBase(522)
 		..setModelFile("dummy.mdl")
 		..setAnimationBlendTimeseconds(0.0)
@@ -51,25 +51,27 @@ let DUMMY_UNIT_ID = compiletime(UNIT_ID_GEN.next())
 		..setUnitClassification("_")
 		..setPropulsionWindowdegrees(1.0)
 		..setTooltipBasic("")
-		..setNormalAbilities("Avul,Aloc")
+		..setNormalAbilities(commaList(AbilityIds.invulnerable, AbilityIds.locust))
 ```
 
 ### HeroDefinition
 
 Use `HeroDefinition` for heroes that aren't buildings. Additionaly to using `HeroDefinition` you also need to provide an id that starts with an uppercase letter. Use the `HERO_ID_GEN` Id Generator. Example hero based on paladin:
 
+> If the id provided does not start with an uppercase letter, the unit will not be a hero.
+
 ```wurst
 let ESC_STRONG_ID = compiletime(HERO_ID_GEN.next())
 
 @compiletime function gen()
 	new HeroDefinition(ESC_STRONG_ID, UnitIds.paladin)
-		..setIconGameInterface("ReplaceableTextures\\CommandButtons\\BTNFootman.blp")
+		..setIconGameInterface(Icons.bTNFootman)
 		..setIconScoreScreen("")
-		..setModelFile("units\\human\\TheCaptain\\TheCaptain.mdl")
+		..setModelFile(Units.theCaptain1)
 		..setCollisionSize(0)
-		..setNormalAbilities(commaList('Aeth', 'AInv'))
+		..setNormalAbilities(commaList(GHOST_VIS_ID, AbilityIds.inventory))
 		..setHotkey("")
-		..setProperNames("Mike,Jason,Rocky,Herold,Arthur,Chev")
+		..setProperNames(commaList("Mike", "Jason", "Rocky", "Herold", "Arthur", "Chev"))
 		..setProperNamesUsed(6)
 		..setName("|cff084294Strong Escaper")
 		..setManaInitialAmount(0)
